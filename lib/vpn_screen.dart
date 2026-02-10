@@ -29,7 +29,7 @@ class _VPNScreenState extends State<VPNScreen> {
           children: [
             Icon(
               Icons.shield,
-              size: 100,
+              size: 200,
               color: isConnected ? Colors.green : Colors.grey,
             ),
             const SizedBox(height: 20),
